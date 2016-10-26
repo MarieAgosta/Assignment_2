@@ -19,4 +19,8 @@ dataset = read.spss("/Users/Marie/Desktop/R_Course /Assignment_2/anes_timeseries
 
 Aneas_db = file.choose("/Users/Marie/Desktop/R_Course /Assignment_2/anes_timeseries_2012.sav")
 
+install.packages("hyperref")
+
+source("http://bioconductor.org/biocLite.R")
+biocLite("BiocUpgrade")
 
