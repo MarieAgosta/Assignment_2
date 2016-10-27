@@ -8,6 +8,9 @@ bibliography:
 - A2trial.bib
 - A23.bib
 - A2trial1.bib
+- A25.bib
+- A26.bib
+- A27.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -24,7 +27,7 @@ In the United States, for the past 25 years, the Baby Boomer generation (1946–
  
 Millennials will play an increasingly significant role in U.S. elections as they represent an ever-greater share of eligible voters, but there are substantial differences in disposition and demographics between them and previous generations, which could well mean differences in factors that bring them to the polls. 
  
-Generational shifts in attitude have been well documented. @Kohut.2016 Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials) and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third party candidate and are relatively unattached to organized politics and religion.(@Fury.2016) 
+Generational shifts in attitude have been well documented. (@Kohut.2016) Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials) and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third party candidate and are relatively unattached to organized politics and religion.(@Fury.2016) 
 
 Lastly, Millennials are diverse. First, the age range in and of itself implies a diversity of experience: an 18-year-old and a 34-year-old are, hopefully, at two very different stages in life. But more importantly, according to the Census Bureau, for every 100 millennials, 44 are a part of a minority race or ethnic group.  To put it another way, in 2000 only 8 states and Washington DC had a share of minority voters that was 30% or higher. In 2012, the number of states was 17 (plus Washington DC).(@CensusBureau.2016)
 
@@ -40,18 +43,27 @@ A highly regarded study by Raymond Wolfinger and Steven Rosenstone (1980) demons
 
 It is important to note that other empirical works (Cox and Munger, 1989; Leighley and Nagler, 1992) have elaborated on these findings by focusing on systemic characteristics and have found that the closeness of the election, contextual socio-economic conditions, and registration laws have an impact on who goes to the polls. In a comprehensive meta-analysis on aggregate-level studies, many of which concentrated on the US (pgs. 654-657), Geys (2006) found that population size and electoral closeness, population stability, and past turnout were consistently positively significant, whereas racial diversity was consistently negatively significant. The interplay between individual predictors and systemic predictors has yet to be fully explored.
 
+##Our Take 
+
+The traditional indicators of voter turnout: education, income, age, and marital status, were indicative of generations that were characterized by minimal minority voice, fairly traditional gender roles, minimal economic-sectoral shifts, and a lack of reliance on technology. We postulate that the Millennials, given their diversity and the time in which they came of age, may not vote according to past predictors. We predict that gender and race will be stronger indicators than in previous generations. Minority Millennials compose a large portion of the whole generation and they have been casting votes at a high enough rate to strongly influence election turnout. (@Ramsey.2016)
+ 
+Additionally, the role women play in social, political, and economic life has changed dramatically through the generations. There are more women in college, more women with degrees, and more women as the sole, or primary breadwinner of the family. (@Moms.2016) These shifts, especially the economic nes, have effected how women vote. (@iversen2006political) As traditional perceptions and roles have changed, social issues have also come to the forefront, paid paternal leave is now a policy point on both the republican and democratic ticket.
+ 
+We expect these two shifts in composition and perception to alter the validity of traditional indicators. 
+
+
 ```{r cars}
 summary(cars)
 ```
 
-## Including Plots
+## Potential Models
 
-You can also embed plots, for example:
+Model, blabla 
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-# References
+
+# Bibliography
