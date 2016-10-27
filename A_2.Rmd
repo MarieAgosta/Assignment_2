@@ -1,69 +1,80 @@
 ---
 title: "Assignment_2"
 output: pdf_document
-bibliography: 
-- A2.bib
-- A21.bib
-- A22.bib
-- A2trial.bib
-- A23.bib
-- A2trial1.bib
-- A25.bib
-- A26.bib
-- A27.bib
+bibliography: A2.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+#setwd('C:/Users/Chris/Documents/GitHub/Assignment_2')
+#setwd('C:/Users/Chris/Documents/R/col_soc_science')
 ```
 
 ## Generational Shifts  
  
-Traditionally, an individual’s age is one of the most common predictors of differences in attitudes and behaviors, particularly when it comes to voting. Age denotes what cohort a particular person belongs to and what point of the life cycle a particular person is in: childhood, young adult, middle aged, or retiree. Generations typically refer to people born over a 15-20-year span. According to the Pew Research Center, Millennials are the generation born from 1980–1994, making them approximately 19-35 years old as of 2016.
+Traditionally, an individual's age is one of the most common predictors of differences in attitudes and behaviors, particularly when it comes to voting. Age denotes what cohort a particular person belongs to and what point of the life cycle a particular person is in: childhood, young adult, middle aged, or retiree. Generations typically refer to people born over a 15-20-year span. According to the Pew Research Center, Millennials are the generation born from 1980-1994, making them approximately 22-36 years old as of 2016.
  
-In the United States, for the past 25 years, the Baby Boomer generation (1946–1964) was the defining vote in presidential and down ballot elections. However, according to new Pew Research Center analysis, the Millennials now outnumber the Baby Boomers. There are approximately 75.4 million Millennials, surpassing the previous generation. @Fury.2016 In the 2016 election, essentially every Millennial will be eligible to vote for the first time. 
+In the United States, for the past 25 years, the Baby Boomer generation (1946-1964) was the defining vote in presidential and down-ballot elections. However, at 75.4 million people, Millennials now outnumber the Baby Boomers (@fry2015year).
  
 ## Why does this matter?
  
 Millennials will play an increasingly significant role in U.S. elections as they represent an ever-greater share of eligible voters, but there are substantial differences in disposition and demographics between them and previous generations, which could well mean differences in factors that bring them to the polls. 
  
-Generational shifts in attitude have been well documented. (@Kohut.2016) Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials) and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third party candidate and are relatively unattached to organized politics and religion.(@Fury.2016) 
+Generational shifts in attitude have been well documented (@kohut2011generation). Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials) and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third-party candidate and are relatively unattached to organized politics and religion (@fry2015year). 
 
-Lastly, Millennials are diverse. First, the age range in and of itself implies a diversity of experience: an 18-year-old and a 34-year-old are, hopefully, at two very different stages in life. But more importantly, according to the Census Bureau, for every 100 millennials, 44 are a part of a minority race or ethnic group.  To put it another way, in 2000 only 8 states and Washington DC had a share of minority voters that was 30% or higher. In 2012, the number of states was 17 (plus Washington DC).(@CensusBureau.2016)
+Lastly, Millennials are diverse. First, the age range in and of itself implies a diversity of experience, but more importantly, according to the U.S. Census Bureau, for every 100 millennials, 44 are a part of a minority race or ethnic group.  To put it another way, in 2000 only 8 states and Washington DC had a share of minority voters that was 30% or higher. In 2012, the number of states was 17 (plus Washington DC) (@CensusBureau.2016).
 
-## Who Votes?
+## Literature review
 
 The Downsian Model of Electoral competition broadly states that if policy space is unidimensional, and voters have single-peaked preferences over the policy dimension, then the median voter becomes pivotal in majority decision making. Downs (1957) used this result to analyze electoral competition, and demonstrated that two competing parties will converge to the policy of the preferred median voter. There are quite restrictive assumptions with this model, including that politicians are able to pre-commit to their proposed platforms. That being said, the model delivers a clear prediction about the impact of electoral competition on public policy and has become a mainstay in the field. 
 
-The original Downsian Model did not pay much attention to who the "median voter"" was, so subsequent studies built on his model by showing that the median voter and median citizen are usually not one in the same. An abundant number of theoretical models have emerged, trying to explain voter turnout yet there is limited academic consensus on a core model. Different models have found empirical support in different contexts, suggesting that perhaps voter turnout has different causal mechanisms depending upon the country, voters, and time period. (Gallego, 2010; Arceneaux and Nickerson, 2009)
+The original Downsian Model did not pay much attention to who the "median voter" was, so subsequent studies built on his model by showing that the median voter and median citizen are usually not one in the same. An abundant number of theoretical models have emerged, trying to explain voter turnout, yet there is limited academic consensus on a core model. Different models have found empirical support in different contexts, suggesting that perhaps voter turnout has different causal mechanisms depending upon the country, voters, and time period (@smets2013embarrassment).
 
-When it comes to the United States, non-voters have not been randomly distributed across the country. Empirical research shows that voters and nonvoters systematically differ in their socio-economic status and demographic backgrounds. These differences allude to potential differences in needs and policy preferences. (Verba, 1993; Wolfinger and Rosenstone, 1980).
+When it comes to the United States, non-voters have not been randomly distributed across the country. Empirical research shows that voters and nonvoters systematically differ in their socio-economic status and demographic backgrounds. These differences allude to potential differences in needs and policy preferences (Verba, 1993; Wolfinger and Rosenstone, 1980).
 
-A highly regarded study by Raymond Wolfinger and Steven Rosenstone (1980) demonstrated that in the US, turnout is fairly predictable based on a number of individual demographic variables. The variables are education, income, age, marital status, and occupation. Independent of the specific election or country examined, these results have been confirmed time and time again by subsequent studies. (@smets2013embarrassment) Smets and Van Ham (2012) conducted a thorough meta-analysis on individual level turnout and also found that education, age, income, and marital status were consistently statistically significant in regards to voter turnout. It should, however, be noted that there are substantial limits in the predictive and explanatory power of even well-specified statistical models. As Matsusaka (1999) has shown, voter turnout models generally suffer from a low r-squared, meaning they explain only a limited percentage of the factors behind the phenomenon.(@matsusaka1999voter)    
-
+A highly regarded study by Raymond Wolfinger and Steven Rosenstone (1980) demonstrated that in the US, turnout is fairly predictable based on a number of individual demographic variables. The variables are education, income, age, marital status, and occupation. Independent of the specific election or country examined, these results have been confirmed time and time again by subsequent studies (@smets2013embarrassment). Smets and Van Ham (2012) conducted a thorough meta-analysis on individual level turnout and also found that education, age, income, and marital status were consistently statistically significant in regards to voter turnout. It should, however, be noted that there are substantial limits in the predictive and explanatory power of even well-specified statistical models. As Matsusaka (1999) has shown, voter turnout models generally suffer from a low r-squared, meaning they explain only a limited percentage of the factors behind the phenomenon (@matsusaka1999voter).    
 It is important to note that other empirical works (Cox and Munger, 1989; Leighley and Nagler, 1992) have elaborated on these findings by focusing on systemic characteristics and have found that the closeness of the election, contextual socio-economic conditions, and registration laws have an impact on who goes to the polls. In a comprehensive meta-analysis on aggregate-level studies, many of which concentrated on the US (pgs. 654-657), Geys (2006) found that population size and electoral closeness, population stability, and past turnout were consistently positively significant, whereas racial diversity was consistently negatively significant. The interplay between individual predictors and systemic predictors has yet to be fully explored.
 
-##Our Take 
+##Data Sources
 
-The traditional indicators of voter turnout: education, income, age, and marital status, were indicative of generations that were characterized by minimal minority voice, fairly traditional gender roles, minimal economic-sectoral shifts, and a lack of reliance on technology. We postulate that the Millennials, given their diversity and the time in which they came of age, may not vote according to past predictors. We predict that gender and race will be stronger indicators than in previous generations. Minority Millennials compose a large portion of the whole generation and they have been casting votes at a high enough rate to strongly influence election turnout. (@Ramsey.2016)
+Because our model will test a variety of different independent variables, we focused on finding reputable and publicly available surveys that include key demographics along with attitudes, dispositions, past voting history, and other factors. This led us to two sources.
+
+Our preferred source is the 2012 Time Series Study from American National Election Studies, a joint Stanford University and University of Michigan collaboration that is widely cited in academic literature. The study produced a sizable (62MB) panel survey of about 6,000 respondents (both Internet and face-to-face) who answered two sets of questions on two separate occasions, both before the 2012 presidential election and afterward. The set includes virtually any demographic variable that appears in voter turnout literature, including level of education, employment status, income, race, gender, and age. It also includes more than 60 additional sections assessing a wide range of topics, from political knowledge to social trust and opinions on salient political issues.  Lastly, it also includes self-reported turnout and choice for both the 2012 and 2008 elections, allowing us to control for past voting history as well, which has been shown to be a strong predictor of future turnout and a good control for a host of time-invariant factors (@matsusaka1999voter).
+
+Additionally, a 2013 follow-up using the same participants includes a host of additional variables covering attitudes and opinions on major political issues. But this data set would have to be merged with the 2012 original using unique participant identification numbers. 
+
+Another source we could use is RAND's American Life Panel 2014 Midterm Election Survey. It offers a similarly broad range of variables, except it was conducted over a series of six separate surveys, adding a layer of difficulty with merging. While the same participants received the survey each time, response rates and respondents vary, which compounds the challenge. Additionally, it covers 2014 only and does not feature data covering previous election years, making it less rich. While we are interested in differences in predictive models for Millennials in off-year elections, given the age group's meagre participation in such contests, it is not a focal point of our work. 
+
+##Modal 
+
+The traditional indicators of voter turnout: education, income, age, and marital status, were indicative of generations that were characterized by minimal minority voice, fairly traditional gender roles, minimal economic-sectoral shifts, and a lack of reliance on technology. We postulate that the Millennials, given their diversity and the time in which they came of age, may not vote according to past predictors.
+
+We will use logistic regression to assess the strength of various predictors on the likelihood that a given respondent voted in 2012. Thus, we will use a binary dependent variable coded "1" if the respondent did vote in 2012. But because our focus is to test whether traditional factors found in voter turnout literature have less predictive power for Millennials (and in turn whether there are more neglected variables that have a strong impact specifically on Millennials), we will be running the same model but for different age bands. This will allow us to discern differences in predictive power across age groups. We will use odds ratios from exponentiated coefficients to determine the overall impact of a given predictor, and we'll use prediction functions to assess the model's overall goodness-of-fit. 
+
+The only question left, then, is which variables we'll include in the model and our hypothesize effects.
+
+First, we will include the most widely cited variables from academic literature (the so-called "traditional predictors"): education, age, income, marital status, and employment status. Looking at attitude surveys of Millennials, reporting on their habits, and existing literature, we posit some of these traditional factors will have different impacts for Millennials. 
+
+We predict education will have less of an impact because American Millennials are actually far more educated than their parents, essentially diluting the importance of a four-year degree as a key benchmark for civic participation and income attainment (@patten2015millennials). 
+
+We predict employment status - specifically whether someone is unemployed - will have a stronger negative effect on Millennials because their relatively high optimism and levels of education lead to feelings of diminished political efficacy (@watterson2012full). 
+
+We predict past voting decisions will not be as strong of a predictor because the habits of Millennials are not as ingrained. 
+
+Age will be an especially relative measure for this relatively young demographic, but we do predict it will have greater predictive power for older portions of the band but will generally be less strong. 
+
+We predict income will be less significant of a predictor because it is less a part of Millennial identity and explains less about individuals in this age group (@taylor2010millennials). 
+
+We predict that gender and race will be stronger indicators than in previous generations. Minority Millennials compose a large portion of the whole generation, and they have been casting votes at a high enough rate to strongly influence election turnout (@wang2013breadwinner).
  
-Additionally, the role women play in social, political, and economic life has changed dramatically through the generations. There are more women in college, more women with degrees, and more women as the sole, or primary breadwinner of the family. (@Moms.2016) These shifts, especially the economic nes, have effected how women vote. (@iversen2006political) As traditional perceptions and roles have changed, social issues have also come to the forefront, paid paternal leave is now a policy point on both the republican and democratic ticket.
+Additionally, the role women play in social, political, and economic life has changed dramatically through the generations. There are more women in college, more women with degrees, and more women as the sole, or primary breadwinner of the family (@Moms.2016). These shifts, especially the economic ones, have affected how women vote (@iversen2006political). As traditional perceptions and roles have changed, social issues have also come to the forefront.
  
-We expect these two shifts in composition and perception to alter the validity of traditional indicators. 
+Other variables of interest, some of which are far less widely used in the literature, include:
 
+Mobility, which we believe has a negative impact. Millennials move more than Baby Boomers in particular, and in the U.S. context this entails numerous obstacles, such as registering to vote again in the new place of residence (@benetsky2015young).Secondly, we believe party identification will have less of an impact, given Millennials' disdain for the mobilizing effects of party identification. 
 
-```{r cars}
-summary(cars)
-```
-
-## Potential Models
-
-Model, blabla 
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
+Other variables of interest include civic duty, which we believe will not have as strong of an impact owing to a greater sense of social dislocation among Millennials, which will also contribute to diminished impact of membership in traditional institutions (church, unions, etc.). Because of these factors, Millennials will have to feel an especially strong attachment to a candidate in a given election in order to vote, which is measurable using ANES, and contact from a political party will have an especially high impact (@kitchel2015they). 
 
 
 # Bibliography
