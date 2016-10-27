@@ -7,7 +7,7 @@ bibliography:
 - A22.bib
 - A2trial.bib
 - A23.bib
-- A24.bib 
+- A2trial1.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -24,9 +24,9 @@ In the United States, for approximately the past 25 years, the Baby Boomer gener
  
 Millennials will play an increasingly significant role in U.S. elections as they represent an ever-greater share of eligible voters, but there are substantial differences in disposition and demographics between them and previous generations, which could well mean differences in factors that bring them to the polls. 
  
-Generational shifts in attitude have been well documented. (@Pew.2016 Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third party candidate and are relatively unattached to organized politics and religion.[6] 
+Generational shifts in attitude have been well documented. @Kohut.2016 Millennials are in no rush to get married, are more supportive of larger governments, are more likely to have debt, are more accepting of gay-marriage, and are more aware of gender discrimination. Additionally, most millennials came of age during a recession (@o2015millennials) and identify with and engage with technology in a way that was inconceivable to past generations. These societal shifts and cultural norms will affect how they view and partake in politics. Millennials are the only generation where just as many people describe their views as liberal as they do conservative. They also have the highest number of people reported as being open to a third party candidate and are relatively unattached to organized politics and religion.(@Fury.2016) 
 
-Lastly, Millennials are diverse. First, the age range in and of itself implies a diversity of experience: an 18-year-old and a 34-year-old are, hopefully, at two very different stages in life. But more importantly, according to the Census Bureau, for every 100 millennials, 44 are a part of a minority race or ethnic group.  To put it another way, in 2000 only 8 states and Washington DC had a share of minority voters that was 30% or higher. In 2012, the number of states was 17 (plus Washington DC).(@CensusBureau.2016
+Lastly, Millennials are diverse. First, the age range in and of itself implies a diversity of experience: an 18-year-old and a 34-year-old are, hopefully, at two very different stages in life. But more importantly, according to the Census Bureau, for every 100 millennials, 44 are a part of a minority race or ethnic group.  To put it another way, in 2000 only 8 states and Washington DC had a share of minority voters that was 30% or higher. In 2012, the number of states was 17 (plus Washington DC).(@CensusBureau.2016)
 
 ## Who Votes?
 
@@ -38,7 +38,7 @@ When it comes to the United States, non-voters have not been randomly distribute
 
 A highly regarded study by Raymond Wolfinger and Steven Rosenstone (1980) demonstrated that in the US, turnout is fairly predictable based on a number of individual demographic variables. The variables are education, income, age, marital status, and occupation. Independent of the specific election or country examined, these results have been confirmed time and time again by subsequent studies. (@smets2013embarrassment) Smets and Van Ham (2012) conducted a thorough meta-analysis on individual level turnout and also found that education, age, income, and marital status were consistently statistically significant in regards to voter turnout. It should, however, be noted that there are substantial limits in the predictive and explanatory power of even well-specified statistical models. As Matsusaka (1999) has shown, voter turnout models generally suffer from a low r-squared, meaning they explain only a limited percentage of the factors behind the phenomenon.(@matsusaka1999voter)    
 
-It is important to note that other empirical works (Cox and Munger, 1989; Leighley and Nagler, 1992) have elaborated on these findings by focusing on systemic characteristics and have found that the closeness of the election, contextual socio-economic conditions,[11] and registration laws have an impact on who goes to the polls. In a comprehensive meta-analysis on aggregate-level studies[12], Geys (2006) found that population size and electoral closeness, population stability, and past turnout were consistently positively significant, whereas racial diversity was consistently negatively significant. The interplay between individual predictors and systemic predictors has yet to be fully explored.
+It is important to note that other empirical works (Cox and Munger, 1989; Leighley and Nagler, 1992) have elaborated on these findings by focusing on systemic characteristics and have found that the closeness of the election, contextual socio-economic conditions, and registration laws have an impact on who goes to the polls. In a comprehensive meta-analysis on aggregate-level studies, many of which concentrated on the US (pgs. 654-657), Geys (2006) found that population size and electoral closeness, population stability, and past turnout were consistently positively significant, whereas racial diversity was consistently negatively significant. The interplay between individual predictors and systemic predictors has yet to be fully explored.
 
 ```{r cars}
 summary(cars)
