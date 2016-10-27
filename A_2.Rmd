@@ -1,5 +1,6 @@
 ---
 title: "Assignment_2"
+author: "Chris Kardish and Marie Agosta"
 output: pdf_document
 bibliography: A2.bib
 ---
